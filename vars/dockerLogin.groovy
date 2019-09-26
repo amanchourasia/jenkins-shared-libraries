@@ -7,4 +7,5 @@ def call(String project, String hubUser) {
         sh "sudo docker login -u '$USER' -p '$PASS'"
     }
     sh "sudo docker image push ${hubUser}/${project}:latest"
+    sh "docker-compose up"
 }
