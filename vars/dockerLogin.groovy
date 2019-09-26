@@ -4,6 +4,6 @@ def call() {
             usernameVariable: "USER",
             passwordVariable: "PASS"
     )]) {
-        sh "sudo docker login -u $USER -p $PASS"
+        sh "docker login -u $USER -p $PASS"
     }
 }
