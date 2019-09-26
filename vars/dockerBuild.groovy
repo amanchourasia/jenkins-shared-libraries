@@ -1,5 +1,5 @@
 def call() {
-    sh "sudo docker image build -t sharelibtest ."
+    sh "sudo docker image build -t sharelibtestt ."
     withCredentials([usernamePassword(
             credentialsId: "dockerhub",
             usernameVariable: "USER",
