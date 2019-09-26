@@ -1,2 +1,4 @@
 my-test:
         image: aman2408/share-lib:latest
+        container_name: tomcat
+        ports: ["8010"]
