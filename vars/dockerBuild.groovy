@@ -8,5 +8,4 @@ def call(String project, String hubUser) {
         sh "sudo docker login -u '$USER' -p '$PASS'"
     }
     sh "sudo docker image push ${hubUser}/${project}:beta-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
-    sh "sudo docker run -d -p 8086:8086 ${hubUser}/${project}:beta-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
 }
