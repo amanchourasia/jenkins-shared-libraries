@@ -1,3 +1,3 @@
 def call() {
-    sh "sudo docker-compose up"
+    sh "sudo docker-compose up -d"
 }
