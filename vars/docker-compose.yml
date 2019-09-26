@@ -1,2 +1,2 @@
 my-test:
-        image: ${hubUser}/${project}:beta-${env.BRANCH_NAME}-${env.BUILD_NUMBER}
+        image: aman2408/share-lib:latest
