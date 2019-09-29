@@ -7,13 +7,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <plugin>            
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <configuration>
-    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
-  </configuration>
-</plugin>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
